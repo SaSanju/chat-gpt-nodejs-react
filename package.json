@@ -6,8 +6,7 @@
     "scripts": {
         "back:dev": "cd chatgpt-api && npm run dev",
         "front:dev": "cd chatgpt-ui && npm run dev",
-        "start": "run-p back:dev front:dev",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "run-p back:dev front:dev"
     },
     "type": "module",
     "keywords": [
